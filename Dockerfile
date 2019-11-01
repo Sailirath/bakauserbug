@@ -62,7 +62,7 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b master https://github.com/Amroslayer/Amroslayeruserbot /root/userbot
+RUN git clone -b beta https://github.com/Amroslayer/Amroslayeruserbot /root/userbot
 RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 
